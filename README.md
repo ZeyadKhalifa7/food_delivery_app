@@ -197,6 +197,8 @@ Add documents with the following fields:
 | `name` | String |
 | `price` | Number |
 | `description` | String (Optional) |
+| `imageUrl` | String (Optional) |
+
 
 Example:
 
@@ -204,7 +206,8 @@ Example:
 {
   "name": "Cheese Burger",
   "price": 9.99,
-  "description": "Juicy beef burger with cheese"
+  "description": "Juicy beef burger with cheese",
+  "imageUrl": "https://your-image-url.com/burger.png"
 }
 ```
 
